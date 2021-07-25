@@ -5,19 +5,59 @@
       </title>
     </head>
   <body>
+    <style>
+      .header {
+        overflow:hidden;
+        border:double;
+        margin:auto;
+      }
+      .header_logo{
+        float:left;
+        border-right:double;
+        padding:10px;
+        width:30%;
+      }
+      .header_logo img {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+      }
+      .header_greeting{
+        margin-top:50px;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+        font-size:40;
+        font-weight:bold; 
+      }
     <!---HEADER--->
-    <center>
+      <div class="header">
+        <div class="header_logo"><img src="images/logo.jpg"></div>
+        <div class="header_greeting"><h1>Selamat Datang</h1></div>
+    </div>  
     
-      <table width="75%" border="2">
-        <tr>
-          <th width="20%"><img src="images/logo.jpg"< width="50%"></th>
-          <th><font size="50">Selamat Datang</font></th>   
-        </tr>
-      </table>
-      
+    <div class="vertical" >
     <!---MENU--->
-    
-    <!--FOOTER--->
-    
+    <div class="menu">
+      Senarai Menu
+      <ul>
+        <li><a href="#">UTAMA</a></li>
+        <li><a href="#"KEDAI KAMI</a></li>
+        <li><a href="#"TENTANG KAMI</a></li>
+        <li><a href="#"HUBUNGI KAMI</a></li>
+      </ul>
+      </div>
+      <!---CONTENT-->
+      <div class="kandungan">
+        <img src="images/kek.jpg" width-="150px">
+        <br>
+        Sila komen tentang produk ini
+        <a href="komen.html">di sini</a>
+        </div
+      </div>
+    <!--FOOTER---> 
+      <div class="kandungan"
+      &copy;KEDAI KEK OVERSEA, 2021
+      </div>
   </body>
 </html>
